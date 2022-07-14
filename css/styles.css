@@ -79,10 +79,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* outline: 1px solid tomato; */
-
-
-    
+    /* outline: 1px solid tomato; */   
 }
 
 
@@ -102,6 +99,7 @@ body {
 
 /* header */
 
+
 .header {
    border-bottom: 1px solid #ECECEC;
    max-width: 1600px;
@@ -109,14 +107,13 @@ body {
 }
 .header-inner {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 /*  logo */
 
 .header-logo {
-margin-right: 93px;
+    margin-right: 93px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -128,43 +125,46 @@ margin-right: 93px;
 }
 
 .logo-light {
-
     color: #000000;
+}
+.header-logo:hover .logo-light,
+.header-logo:focus .logo-light {
+    color: var(--hover-color);
 }
 
 /* Nav */
 
 .nav-link {
-   display: block;
-   padding-top: 32px;
-   padding-bottom: 32px;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--title-text-color);
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
 }
 .nav-item {
     display: inline-block;
 }
 .nav-item:not(:last-child) {
- margin-right: 50px;
+    margin-right: 50px;
 }
 .prime {
     color: #2196F3;
 }
 .contact-link {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        padding-top: 32px;
-        padding-bottom: 32px;
-        align-items: center;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--primery-text-color);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
 }
 .contact-items:last-child {
      margin-left: 50px;
@@ -177,10 +177,6 @@ margin-right: 93px;
 .contact-items {
     display: inline-block;
 }
-.contact-link{
-
-}
-
 
 
 /*hero */
@@ -199,24 +195,19 @@ margin-right: 93px;
     background-size: cover;
     margin: 0 auto;
     max-width: 1600px;
-    height: 600px;
-    
-    
-
 }
-
-
+    
 .hero-title {
     display: inline-block;
     width: 696px;
     margin-bottom: 30px;
-        text-transform: uppercase;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;           
-        text-align: center;
-        letter-spacing: 0.06em;
-        color: var(--primery-title-color);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;           
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--primery-title-color);
        
 }
 .btn {
@@ -228,17 +219,15 @@ margin-right: 93px;
     min-height: 50px;
     border: 0px;
     margin: 0 auto;
-
-
-        font-family: inherit; 
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        color : #ffffff;
-        cursor: pointer;
+    font-family: inherit; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color : #ffffff;
+    cursor: pointer;
 }
 .btn:hover {
     background-color: #188CE8
@@ -268,13 +257,11 @@ margin-right: 93px;
     background: #F5F4FA;
     border-radius: 4px;
  }
- .quality-logo{
 
- }
 .quality-title {
     width: 270px;
     margin-bottom: 10px;
-            font-size: 14px;
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -282,15 +269,15 @@ margin-right: 93px;
 }
 .quality-description {
     width: 270px;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* work */
 
 .work-subtitle {
-    margin-bottom: 50px;
+        margin-bottom: 50px;
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
@@ -303,10 +290,9 @@ margin-right: 93px;
 }
 
 /* team */
+
 .team {
     background-color: var(--background-team-color);
-    max-width: 1600px;
-    margin: 0 auto;
 }
 .team-subtitle {
     margin-bottom: 50px;
@@ -333,7 +319,7 @@ margin-right: 93px;
     border-radius: 0px 0px 4px 4px;
 }
 .team-members {
-    margin-bottom: 10px;
+        margin-bottom: 10px;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
@@ -374,8 +360,8 @@ margin-right: 93px;
 }
 .team-link:hover,
 .team-link:focus {
-  background-color: var(--logo-color-p1 );
-  fill: #FFFFFF; 
+    background-color: var(--logo-color-p1 );
+    fill: #FFFFFF; 
 }
  
 
@@ -394,17 +380,13 @@ margin-right: 93px;
 .clients-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    
+    gap: 30px;   
 }
 
 .clients-item {
     width: 170px;
-    height: 92px;
-    
-     
+    height: 92px;  
     margin: 0 auto;
-
 }
 
 
@@ -414,8 +396,7 @@ margin-right: 93px;
     border: 1px solid var(--logo-color-p1 );
 border-radius: 4px;
 }
-.clients-link {
-    
+.clients-link { 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -432,8 +413,6 @@ border-radius: 4px;
     background-color: var(--background-footer-color);
     padding-top: 60px;
     padding-bottom: 60px;
-    max-width:  1600px;
-    margin: 0 auto;
 }
 .footer-block{
     display: flex;
@@ -443,16 +422,20 @@ border-radius: 4px;
 .footer-logo {
     display: inline-block;
     margin-bottom: 20px;
-        font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--logo-color-p1);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--logo-color-p1);
 }
 
 .logo-black {
     color: var(--maplink-text-color);
+}
+.footer-logo:hover .logo-black,
+.footer-logo:focus .logo-black {
+    color: var(--hover-color);
 }
 
 .footer-item:not(:last-child){
@@ -462,17 +445,17 @@ border-radius: 4px;
     font-style: normal;
 }
 .footer-map {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: var(--maplink-text-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--maplink-text-color);
 }
 
 .fcontact-link {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 .footer-title {
     margin-top: 12px;
@@ -482,8 +465,6 @@ border-radius: 4px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-
-color: #FFFFFF;
 }
 .footer-social{
     display: inline-block;
@@ -516,13 +497,10 @@ color: #FFFFFF;
     background: var(--hover-color);
 }
 
-
-
 /* portfolio btn */
 
 .nav-link .link:active{
     color: var(--hover-color);
-
 }
 .example-list {
     display: flex;
@@ -530,7 +508,6 @@ color: #FFFFFF;
     justify-content: center;
     gap: 8px;
     margin-bottom: 50px;
-
 }
 
 .example-btn {
@@ -555,21 +532,19 @@ color: #FFFFFF;
     border-radius: 4px;
     border: transparent;
     min-width: 73px;
-       background-color: var(--background-team-color);
-        font-family: inherit;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.62;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: var(--title-text-color);
+    background-color: var(--background-team-color);
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
 }
 .inst-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
-    
 }
 .inst-thumb{
     padding: 20px 24px;
@@ -585,15 +560,15 @@ color: #FFFFFF;
 
 .inst-title {
     margin-bottom:  4px;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2.0;           
-        letter-spacing: 0.06em;
-        color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;           
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
 }
 .inst-text {
-        font-size: 16px;
-        line-height:1.88;
-        letter-spacing: 0.03em;
-        color: var(--primery-text-color);
+    font-size: 16px;
+    line-height:1.88;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
 }
